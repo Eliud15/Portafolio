@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background-image: linear-gradient(to right,#9400d3  , #20b2aa);
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+#titulo{
+    text-align: center;
+    margin: 0;
+    color: #ffffff;
+    font-size: 3rem;
+}
+main{
+    padding: 20px;
+}
+#subtitulo{
+    font-size: 2.5rem;
+}
+.container{
+padding: 20px;
+}
+img{
+    width: 80px;
+    height: auto;
+}
+#container-proyectos{
+    display: flex;
+}
+#menu{
+    list-style: none;
+}
+li{
+    margin: 30px;
+}
+a{
+   text-decoration: none;
+}
+footer{
+    text-align: center;
+}
+#redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div >a{
+    background-color: #000000;
+    color: #f0f8ff;
+    margin: 30px;
+    width: 100px;padding: 10px;
+    border-radius: 2rem;
+}
+.link:hover{
+    background-color: #0a37ca ;
+   
+}
+.git:hover{
+    background-color: #808080;
+   
+}
+.sapp:hover {
+background-color: #00ff00 ;
+
+}
+
+/* conocimientos */
+#conocimientos{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.conocimientos{
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 2rem;
+    margin-bottom: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid black;
+}
+.html:hover{
+    background-color: #e92525;
+    color: #000000;
+}
+.css:hover{
+    background-color:#1557e7;
+    color: #000000;
+}
+.js:hover{
+    background-color: #ffff00;
+    color: #000000;
+}
+.node:hover{
+    background-color: #008000;
+    color: #000000;
+}
+.react:hover{
+    background-color: #00ffff;
+    color: #000000;
+}
+.express:hover{
+   background: none;
+   border: 2px solid black;
+   color: #000000;
+}
